@@ -66,9 +66,11 @@ function Navbar() {
                     <a href="#contact">Contact us</a>
                     </li>
                 </ul>
+                <Link to="/donate">
                 <Button className="bg-yellow-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-yellow-400 cursor-pointer">
                     DONATE
                 </Button>
+                </Link>
             </div>
 
         </div>

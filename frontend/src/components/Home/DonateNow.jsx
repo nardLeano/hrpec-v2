@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button";
+import { Link } from 'react-router-dom';
 
 const DonateNow = () => {
   return (
@@ -22,9 +23,11 @@ const DonateNow = () => {
                     Your donation helps us sustain workshops, cultural events, campaigns, and learning spaces. Every contribution fuels real impact.
                 </p>
 
+                <Link to="/donate">
                 <Button className="bg-yellow-500 text-white text-3xl font-bold px-12 py-8 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-yellow-400 cursor-pointer">
                     DONATE
                 </Button>
+                </Link>
 
 
             </div>
