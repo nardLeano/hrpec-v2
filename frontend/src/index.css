@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@import "tw-animate-css";
+
+@theme {
+  --color-slate-500: #5f6b7b;
+  --color-mist-500: #b5b6ce;
+  --color-deep-500: #034D6D;
+  --color-sky-500: #01a0e4;
+  --color-ice-500: #45caf5;
+  --color-frost-500: #E1F6FF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  @apply bg-white text-gray-900;
+}
