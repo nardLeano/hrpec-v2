@@ -84,8 +84,8 @@ if (submitted) {
       onSubmit={handleSubmit}
     >
       {/* Hidden field to skip FormSubmit captcha */}
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_template" value="table" />
+      {/* <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" /> */}
 
       <div>
         <label className="block mb-1 font-semibold">Name</label>
