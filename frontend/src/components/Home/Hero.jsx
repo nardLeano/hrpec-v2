@@ -7,6 +7,7 @@ import Slide1 from "@/assets/carousel/slide1.png";
 import Slide2 from "@/assets/carousel/slide2.png";
 import Slide3 from "@/assets/carousel/slide3.png";
 import Slide4 from "@/assets/carousel/slide4.png";
+import Slide5 from "@/assets/carousel/slide5.png";
 
 //slides content
 const slides = [
@@ -33,6 +34,12 @@ const slides = [
     title: "Miyerkulet",
     subtitle: "A regular cultural event which HRPEC has mounted over two hundred times, is a safe space for the arts and human rights discourse.",
     image: Slide4,
+  },
+    {
+    id: 5,
+    title: "Makatao, Maka-Tayo Campaign",
+    subtitle: " Eighteen civil society organizations convened to collectively draft a 12-point human rights legislative agenda, which will serve as a basis for candidates to uphold the rights of the Filipino people.",
+    image: Slide5,
   },
 ];
 

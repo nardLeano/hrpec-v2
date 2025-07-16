@@ -130,7 +130,7 @@ if (submitted) {
         <label className="block mb-1 font-semibold">Message</label>
         <textarea
           name="message"
-          placeholder="Write your message here"
+          placeholder="Write your message here..."
           className="w-full border border-gray-300 bg-white rounded-lg px-4 py-2 min-h-[120px]"
           rows={formData.message.length > 300 ? 6 : 4}
           value={formData.message}
@@ -141,7 +141,7 @@ if (submitted) {
 
       <Button
         type="submit"
-        className={`bg-ice-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-sky-500 cursor-pointer ${Object.keys(errors).length === 0 ? "" : "opacity-60 cursor-not-allowed"}`}
+        className={`bg-ice-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-sky-500 cursor-pointer ${Object.keys(errors).length === 0 ? "" : "opacity-60 cursor-pointer"}`}
       >
         Submit
       </Button>
