@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="w-full border-t bg-white px-6 py-8 text-sm text-gray-500">
+    <footer className="w-full border-t bg-deep-500/60 px-6 py-8 text-sm text-slate-100">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start justify-between gap-y-6">
         {/* Logo */}
         <div className="flex items-center gap-3">
@@ -13,7 +13,7 @@ function Footer() {
         </div>
      
       {/* GROUP */}
-      <div className="flex flex-col gap-3 text-deep-500 items-start">
+      <div className="flex flex-col gap-3 text-slate-100 items-start">
         <div className="bold text-lg">FOLLOW US ON SOCIAL MEDIA!</div>
         {/* Social Icons */}
         <div className="flex gap-4">
@@ -51,22 +51,22 @@ function Footer() {
         <div className="flex bg-deep-500 w-md h-[1px]"></div>
 
         {/* Copyright */}
-        <div className="text-center md:text-right text-gray-500 text-sm">
+        <div className="text-center md:text-right text-gray-300 text-sm">
           © {new Date().getFullYear()} HRPEC. All rights reserved.
         </div>        
       </div>
 
         {/* Details */}
-      <div className="text-sm text-gray-600 flex flex-col gap-5 md:flex-col md:items-start md:justify-start ">
+      <div className="text-sm text-gray-300 flex flex-col gap-5 md:flex-col md:items-start md:justify-start ">
         {/* Location */}
           <div className="flex flex-col">
-            <span className="font-semibold text-deep-500">Location</span>{" "}
+            <span className="font-semibold text-slate-100">Location</span>{" "}
             Harong, 56 Mother Ignacia, Quezon City.
           </div>
 
         {/* Contact */}
           <div className="flex flex-col">
-            <span className="font-semibold text-deep-500">Contact</span>{" "}
+            <span className="font-semibold text-slate-100">Contact</span>{" "}
             <a href="mailto:admin@hrpec.org" className="underline hover:text-deep-500">
               admin@hrpec.org
             </a>
