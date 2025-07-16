@@ -92,7 +92,7 @@ if (submitted) {
         <input
           type="text"
           name="name"
-          placeholder="Full Name or Organization"
+          placeholder="Full Name or Organization Name"
           className="w-full border border-gray-300 bg-white rounded-lg px-4 py-2"
           value={formData.name}
           onChange={handleChange}
