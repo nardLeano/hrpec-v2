@@ -14,6 +14,7 @@ import Footer from "@/components/Footer";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Donate from "./pages/Donate";
+import ContactUs from "./pages/ContactUs";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/donate" element={<Donate />} />
+            <Route path="/contact" element={<ContactUs />} />
             {/* <Route path="/about" element={<About />} /> */}
             {/* Add more routes here */}
           </Routes>

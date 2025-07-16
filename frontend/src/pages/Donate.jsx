@@ -21,7 +21,7 @@ const Donate = () => {
       </p>
 
       <p className="text-lg font-medium mb-6">
-        Donate to us through the link below.
+        Donate to us through the QR codes below.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

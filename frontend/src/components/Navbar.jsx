@@ -53,17 +53,17 @@ function Navbar() {
             <div className="flex flex-row items-center text-md text-ice-500 gap-x-5">
                 <ul className="flex flex-row items-center gap-x-6 list-none">
                     <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
-                        <Link to="/">
+                        <Link to="/" onClick={scrollToTop}>
                             <a href="#home">Home</a>
                         </Link>
                     </li>
                     <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
-                        <Link to="/about">
+                        <Link to="/about" onClick={scrollToTop}>
                             <a href="#about">About</a>
                         </Link>
                     </li>
                     <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
-                    <a href="#contact">Contact us</a>
+                    <a href="/contact">Contact us</a>
                     </li>
                 </ul>
                 <Link to="/donate">
