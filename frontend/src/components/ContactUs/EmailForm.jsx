@@ -1,17 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router-dom";
 
 const EmailForm = () => {
-  const navigate = useNavigate();
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -40,53 +30,51 @@ const EmailForm = () => {
     }));
   };
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-  if (!validate()) return;
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!validate()) return;
 
-  setSubmitted(true);
-  setFormData({ name: "", email: "", subject: "", message: "" }); // Clear form
+    try {
+      await fetch("https://getform.io/f/bdrgzwnb", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-  setTimeout(() => {
-    setSubmitted(false);
-    scrollToTop(); // Optional scroll to top
-  }, 5000);
-};
+      setSubmitted(true);
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      console.error("Submission failed:", error);
+      alert("There was an issue sending your message. Please try again.");
+    }
 
-if (submitted) {
+    setTimeout(() => {
+      setSubmitted(false);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 5000);
+  };
+
+  if (submitted) {
+    return (
+      <div className="bg-ice-500 p-3 sm:p-6 rounded-2xl shadow text-deep-500 text-md sm:text-lg">
+        <p className="text-md sm:text-lg font-semibold mb-4">Your message has been sent!</p>
+        <p>
+          Please wait for a couple of days for the confirmation of your email. If you do not receive a confirmation within 2–3 days, please send another message and make sure that the email you provide is correct and working. Thank you!
+        </p>
+        <p className="mt-4">Love, HRPEC</p>
+
+        <Button
+          className="bg-ice-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-sky-500 cursor-pointer"
+          onClick={() => setSubmitted(false)}
+        >
+          Okay
+        </Button>
+      </div>
+    );
+  }
+
   return (
-    <div className="bg-ice-500 p-6 rounded-2xl shadow text-deep-500">
-      <p className="text-lg font-semibold mb-4">Your message has been sent!</p>
-      <p>
-        Please wait for a couple of days for the confirmation of your email. If you do not receive a confirmation within 2–3 days, please send another message and make sure that the email you provide is correct and working. Thank you!
-      </p>
-      <p className="mt-4">Love, HRPEC</p>
-
-      <Button
-        className="mt-6 bg-ice-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-sky-500 cursor-pointer"
-          onClick={() => {
-                setSubmitted(false);
-                setFormData({ name: "", email: "", subject: "", message: "" });
-                scrollToTop();
-            }}
-      >
-        Okay
-      </Button>
-    </div>
-  );
-}
-
-  return (
-    <form
-      className="space-y-4 mt-6"
-      action="https://formsubmit.co/admin@hrpec.org"
-      method="POST"
-      onSubmit={handleSubmit}
-    >
-      {/* Hidden field to skip FormSubmit captcha */}
-      {/* <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_template" value="table" /> */}
-
+    <form className="mt-4 sm:mt-0 space-y-4 text-md sm:text-lg" onSubmit={handleSubmit}>
       <div>
         <label className="block mb-1 font-semibold">Name</label>
         <input
@@ -141,7 +129,9 @@ if (submitted) {
 
       <Button
         type="submit"
-        className={`bg-ice-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-sky-500 cursor-pointer ${Object.keys(errors).length === 0 ? "" : "opacity-60 cursor-pointer"}`}
+        className={`bg-ice-500 text-white text-lg font-bold px-6 py-3 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-sky-500 cursor-pointer ${
+          Object.keys(errors).length === 0 ? "" : "opacity-60 cursor-pointer"
+        }`}
       >
         Submit
       </Button>

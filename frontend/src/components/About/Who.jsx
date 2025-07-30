@@ -3,7 +3,7 @@ import WhoImage from "@/assets/who.png";
 
 const Who = () => {
   return (
-    <section className="w-full bg-white pt-20 px-6 md:px-16 mt-[4rem]">
+    <section className="w-full bg-white pt-20 px-6 md:px-16 mt-[2rem]">
       <div className="max-w-6xl mx-auto flex flex-col gap-5 items-center">
 
         {/* Optional Image Section */}
@@ -18,7 +18,7 @@ const Who = () => {
           {/* Inimage Text */}
           <div className="absolute inset-0 bg-black/40 flex items-end justify-start">
             <div className="text-white text-end px-4 space-y-4">
-                <h2 className="text-6xl font-bold">Who We Are</h2> 
+                <h2 className="text-4xl sm:text-6xl font-bold">Who We Are</h2> 
             </div> 
           </div>
         </div>
@@ -26,7 +26,7 @@ const Who = () => {
         {/* Text Section */}
         <div className="w-full text-deep-500 max-w-3xl">
 
-          <div className="text-lg leading-relaxed space-y-4">
+          <div className="text-md md:text-lg leading-relaxed space-y-4">
             <p>
               The Human Rights and People Empowerment Center (HRPEC) is a non-government organization committed to advancing the cause of human rights through community empowerment.
             </p>

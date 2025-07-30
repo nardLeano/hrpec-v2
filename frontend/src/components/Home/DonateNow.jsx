@@ -6,19 +6,19 @@ const DonateNow = () => {
   return (
     <div>
         <div className="relative z-10 bg-deep-500
-        rounded-lg mt-20 mb-20
-        flex flex-row justify-around items-center px-[3rem] py-20
+        rounded-lg my-10
+        flex flex-row justify-around items-center px-[3rem] py-5
         max-md:flex-col
         max-md:px-2
         ">
             <div className="relative z-10 flex flex-col gap-y-2 justify-center items-center">
                 <center>
-                    <h1 className="text-4xl font-bold my-4 text-frost-500">
+                    <h1 className="text-xl sm:text-3xl md:text-3xl max-w-2xl md:max-w-4xl font-bold sm:my-4 text-frost-500">
                      Support Human Rights. Empower Communities.
                     </h1>
                 </center>
                 
-                <p className="text-1xl text-center text-frost-500 text-2xl max-w-4xl
+                <p className="text-center text-frost-500 text-sm sm:text-lg max-w-xl
                 max-md:text-center mb-4">
                     Your donation helps us sustain workshops, cultural events, campaigns, and learning spaces. Every contribution fuels real impact.
                 </p>

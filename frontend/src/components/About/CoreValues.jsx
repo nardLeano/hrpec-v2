@@ -56,15 +56,15 @@ const values = [
 
 const CoreValues = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full mb-10">
       <div className="max-w-6xl mx-auto px-4 text-deep-500">
-        <h2 className="text-5xl font-bold text-center mb-12">Our Core Values</h2>
+        <h2 className="text-4xl font-bold text-center mb-10">Our Core Values</h2>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 grid-col sm:grid-cols-2 md:grid-cols-3">
           {values.map((value, index) => (
             <div
               key={index}
-              className="bg-blue-50 rounded-2xl shadow p-12 py-20 flex flex-col items-center text-center"
+              className="bg-blue-50 rounded-2xl shadow p-10 flex flex-col items-center text-center"
             >
               {/* Icon Circle */}
               <div className="w-14 h-14 rounded-full bg-deep-500 flex items-center justify-center mb-4">
@@ -72,7 +72,7 @@ const CoreValues = () => {
               </div>
 
               <h3 className="text-xl font-bold mb-2">{value.title}</h3>
-              <p className="text-base leading-relaxed">{value.description}</p>
+              <p className="text-md md:text-lg leading-relaxed">{value.description}</p>
             </div>
           ))}
         </div>

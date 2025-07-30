@@ -16,3 +16,18 @@ body {
   padding: 0;
   @apply bg-white text-gray-900;
 }
+
+@keyframes blink-border {
+  0%, 100% {
+    border-color: #facc15; /* yellow-400 */
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
+.blink-border {
+  @apply p-1 rounded-xl border-4;
+  border-color: #facc15; /* yellow-400 */
+  animation: blink-border 1.618s infinite;
+}

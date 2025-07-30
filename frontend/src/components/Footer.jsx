@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="w-full border-t bg-deep-500/60 px-6 py-8 text-sm text-slate-100">
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start justify-between gap-y-6">
+      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row md:flex-row items-start justify-between gap-y-6">
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img src={LogoInt} alt="HRPEC Logo" className="w-24 h-24" />
@@ -48,7 +48,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className="flex bg-deep-500 w-md h-[1px]"></div>
+        <div className="flex bg-deep-500 w-full h-[1px]"></div>
 
         {/* Copyright */}
         <div className="text-center md:text-right text-gray-300 text-sm">
