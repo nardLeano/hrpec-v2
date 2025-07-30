@@ -11,10 +11,10 @@ const DonateNow = () => {
         max-md:flex-col
         max-md:px-2
         ">
-            <div className="relative z-10 flex flex-col gap-y-2 justify-center items-center">
+            <div className="relative z-10 flex flex-col gap-y-2 justify-center items-center px-3 sm:px-0 ">
                 <center>
                     <h1 className="text-xl sm:text-3xl md:text-3xl max-w-2xl md:max-w-4xl font-bold sm:my-4 text-frost-500">
-                     Support Human Rights. Empower Communities.
+                     Empower Communities. Support Human Rights. 
                     </h1>
                 </center>
                 

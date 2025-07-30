@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 
 const MiyerkuletNow = () => {
   return (
-    <section className="relative w-full">
+    <section className="relative w-full h-[200px] md:h-full flex justify-center items-center overflow-hidden bg-slate-100 ">
       {/* Background Image */}
       <img
         src={FreedomX}
         alt="What's new in MiyerKULET"
-        className="w-full object-contain"
+        className="relative w-full max-w-[1024px] h-[200px] md:h-full overflow-hidden"
       />
 
       {/* Overlay and Content */}

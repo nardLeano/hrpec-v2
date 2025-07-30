@@ -81,10 +81,10 @@ const Hero = () => {
 
   return (
     <div className="relative z-10 flex flex-col justify-center h-full mt-[7rem] max-md:p-1 bg-ice-500">
-      <section className="relative w-full md:h-[450px] h-[280px] flex justify-center items-center overflow-hidden bg-slate-100">
+      <section className="relative w-full h-[280px] md:h-[450px] flex justify-center items-center overflow-hidden bg-slate-100">
         <div
           ref={carouselRef}
-          className="relative w-full max-w-[1024px] md:h-[450px] h-[280px] overflow-hidden"
+          className="relative w-full max-w-[1024px] h-[280px] md:h-[450px] overflow-hidden"
         >
           <div
             className="flex transition-transform duration-1000 ease-in-out w-full h-full"
@@ -93,7 +93,7 @@ const Hero = () => {
             {slides.map((slide) => (
               <div
                 key={slide.id}
-                className="flex-shrink-0 flex items-center justify-start relative text-white px-12 w-full h-full"
+                className="flex-shrink-0 flex items-center justify-start relative text-white px-6 sm:px-12 w-full h-full"
                 style={{
                   backgroundImage: `url(${slide.image})`,
                   backgroundSize: "cover",
@@ -119,7 +119,7 @@ const Hero = () => {
           {/* Arrows */}
           <button
             onClick={prevSlide}
-            className="cursor-pointer absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 p-2 rounded-full text-white"
+            className="cursor-pointer absolute left-0 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-black/20 sm:bg-black/50 hover:bg-black/70 p-2 rounded-full text-white"
             aria-label="Previous Slide"
           >
             <ChevronLeft size={24} />
@@ -127,7 +127,7 @@ const Hero = () => {
 
           <button
             onClick={nextSlide}
-            className="cursor-pointer absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 p-2 rounded-full text-white"
+            className="cursor-pointer absolute right-0 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-black/20 sm:bg-black/50 hover:bg-black/70 p-2 rounded-full text-white"
             aria-label="Next Slide"
           >
             <ChevronRight size={24} />

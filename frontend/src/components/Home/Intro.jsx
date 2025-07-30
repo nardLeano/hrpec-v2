@@ -14,7 +14,7 @@ const Intro = () => {
         </h1>
         
         <p
-          className="text-deep-500 text-sm md:text-2xl text-center max-w-xs sm:max-w-xl md:max-w-4xl"
+          className="text-deep-500 text-sm px-3 sm:px-0 md:text-2xl text-center max-w-xs sm:max-w-xl md:max-w-4xl"
         >
           The Human Rights and People Empowerment Center (HRPEC) is a non-government organization empowering communities to advance the cause of human rights through advocacy, cultural work, and participatory learning.
         </p>
