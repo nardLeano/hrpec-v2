@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="w-full border-t bg-deep-500/60 px-6 py-8 text-sm text-slate-100">
+    <footer className="w-full border-t bg-deep-500/60 px-6 py-8 text-sm text-slate-100 pb-30 md:pb-6">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row md:flex-row items-start justify-between gap-y-6">
         {/* Logo */}
         <div className="flex items-center gap-3">
