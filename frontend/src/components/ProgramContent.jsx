@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
 // Vite loads all markdown files as raw strings
-const files = import.meta.glob('/src/program-contents/*.md', { as: 'raw' });
+const files = import.meta.glob('/src/program-contents/*.md', {
+  query: '?raw',
+  import: 'default'
+});
 
 // Import image files directly
 import transitionalJusticeImg from '@/program-contents/transitional-justice.png';
