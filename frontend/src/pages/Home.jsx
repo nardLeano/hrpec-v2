@@ -13,7 +13,7 @@ import MiyerkuletNow from "@/components/Home/MiyerkuletNow";
 function Home() {
   return (
     <>
-    <div className="w-full relative max-w-5xl px-5 lg:px-0 center mx-auto">
+    <div className="w-full relative max-w-5xl px-5 lg:px-0 center mx-auto pt-[7rem] ">
         <section id="home">
             <Hero />
         </section>

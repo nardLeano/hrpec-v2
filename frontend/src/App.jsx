@@ -16,6 +16,8 @@ import About from "@/pages/About";
 import Donate from "./pages/Donate";
 import ContactUs from "./pages/ContactUs";
 
+import Programs from "./pages/Programs";
+
 
 function App() {
 
@@ -27,8 +29,9 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/donate" element={<Donate />} />
             <Route path="/contact" element={<ContactUs />} />
-            {/* <Route path="/about" element={<About />} /> */}
-            {/* Add more routes here */}
+            
+            <Route path="/programs/:id" element={<Programs />} />
+
           </Routes>
         <Footer />
     </BrowserRouter>

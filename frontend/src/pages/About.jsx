@@ -9,13 +9,18 @@ import CoreValues from '@/components/About/CoreValues';
 const About = () => {
   return (
     <>
-    <div className="w-full relative max-w-5xl px-5 lg:px-0 center mx-auto">
+    <div className="w-full relative max-w-5xl lg:px-0 center mx-auto">
+        
         <section id="who">
             <Who />
         </section>
 
         <section id='missionvision'>
             <MissionVision />
+        </section>
+
+        <section id='programs'>
+
         </section>
 
         <section id="core">

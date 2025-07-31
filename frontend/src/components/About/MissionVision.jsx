@@ -2,9 +2,9 @@ import React from "react";
 
 const MissionVision = () => {
   return (
-    <section className="w-full py-10 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="bg-blue-50 rounded-3xl p-10 text-deep-500 shadow-sm">
+    <section className="w-full py-10 px-6 md:px-16">
+      <div className="max-w-5xl mx-auto">
+        <div className="bg-sky-500/10 rounded-3xl p-10 text-deep-500 shadow-sm">
           <div className="flex flex-col sm:flex-row gap-6 md:gap-12 text-center">
             
             {/* Mission */}

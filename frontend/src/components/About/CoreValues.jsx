@@ -64,7 +64,7 @@ const CoreValues = () => {
           {values.map((value, index) => (
             <div
               key={index}
-              className="bg-blue-50 rounded-2xl shadow p-10 flex flex-col items-center text-center"
+              className="bg-sky-500/10 rounded-2xl shadow p-10 flex flex-col items-center text-center"
             >
               {/* Icon Circle */}
               <div className="w-14 h-14 rounded-full bg-deep-500 flex items-center justify-center mb-4">

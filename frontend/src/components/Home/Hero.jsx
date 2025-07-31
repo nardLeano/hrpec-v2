@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -8,6 +9,7 @@ import Slide2 from "@/assets/carousel/slide2.png";
 import Slide3 from "@/assets/carousel/slide3.png";
 import Slide4 from "@/assets/carousel/slide4.png";
 import Slide5 from "@/assets/carousel/slide5.png";
+import Wave from "@/assets/svg/wave.svg";
 
 // Slides content
 const slides = [
@@ -17,6 +19,7 @@ const slides = [
     subtitle:
       "Interactive Human Rights Film Screenings and Youth Campaign Building for Transitional Justice",
     image: Slide1,
+    link: "/programs/transitional-justice",
   },
   {
     id: 2,
@@ -24,6 +27,7 @@ const slides = [
     subtitle:
       "Harong Queens is a bold and colorful initiative under TST that uses drag as a form of protest, education, and celebration of identity.",
     image: Slide2,
+    link: "/programs/harong-queens",
   },
   {
     id: 3,
@@ -31,6 +35,7 @@ const slides = [
     subtitle:
       "A workshop that brings theater, music, and movement into the heart of communities. Learn. Reflect. Act.",
     image: Slide3,
+    link: "/programs/tita-hr",
   },
   {
     id: 4,
@@ -38,6 +43,7 @@ const slides = [
     subtitle:
       "A regular cultural event which HRPEC has mounted over two hundred times, is a safe space for the arts and human rights discourse.",
     image: Slide4,
+    link: "/programs/miyerkulet",
   },
   {
     id: 5,
@@ -45,6 +51,7 @@ const slides = [
     subtitle:
       "Eighteen civil society organizations convened to collectively draft a 12-point human rights legislative agenda, which will serve as a basis for candidates to uphold the rights of the Filipino people.",
     image: Slide5,
+    link: "/programs/makatao-makatayo",
   },
 ];
 
@@ -52,6 +59,13 @@ const Hero = () => {
   const [current, setCurrent] = useState(0);
   const [slideWidth, setSlideWidth] = useState(0);
   const carouselRef = useRef(null);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   // Auto-slide every 20 seconds
   useEffect(() => {
@@ -78,9 +92,11 @@ const Hero = () => {
   const prevSlide = () =>
     setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   const nextSlide = () => setCurrent((prev) => (prev + 1) % slides.length);
+  
 
   return (
-    <div className="relative z-10 flex flex-col justify-center h-full mt-[7rem] max-md:p-1 bg-ice-500">
+    <div className="relative z-10 flex flex-col justify-center h-full max-md:p-1 bg-ice-500">
+
       <section className="relative w-full h-[280px] md:h-[450px] flex justify-center items-center overflow-hidden bg-slate-100">
         <div
           ref={carouselRef}
@@ -108,9 +124,12 @@ const Hero = () => {
                   <p className="text-xs md:text-md leading-normal md:leading-relaxed drop-shadow-md">
                     {slide.subtitle}
                   </p>
-                  <Button className="cursor-pointer text-white border-white border-2 bg-white/50 hover:bg-white/80 transition duration-300 font-semibold px-6 py-2 text-base">
-                    Learn More
-                  </Button>
+                  <Link to={slide.link} onClick={scrollToTop}>
+                    <Button className="cursor-pointer text-white border-white border-2 bg-white/50 hover:bg-white/80 transition duration-300 font-semibold px-6 py-2 text-base">
+                      Learn More
+                    </Button>
+                  </Link>
+                  
                 </div>
               </div>
             ))}

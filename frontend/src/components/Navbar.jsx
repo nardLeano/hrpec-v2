@@ -48,7 +48,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed top-0 z-50 bg-white w-full font-bold shadow-md transition-all duration-300 ${navbarHeight}`}>
+    <nav className={`fixed top-0 z-50 bg-smoke-500 w-full shadow-md font-bold transition-all duration-300 ${navbarHeight}`}>
 
         <div className="h-full px-5 md:px-5 lg:px-0 max-w-5xl mx-auto flex justify-between items-center">
 
@@ -69,7 +69,7 @@ function Navbar() {
             </Link>
 
             {/* NAVIGATION */}
-            <div className="hidden md:flex items-center text-md text-ice-500 gap-x-5">
+            <div className="hidden md:flex items-center text-md text-sky-500 gap-x-5">
                 <ul className="flex flex-row items-center gap-x-6 list-none">
                     <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
                         <Link to="/" onClick={scrollToTop}>
@@ -101,26 +101,26 @@ function Navbar() {
 
             {/* SIDE BAR POPUP */}
             <div className={`
-                      fixed top-0 h-full w-[60%] sm:w-[35%] bg-white
+                      fixed top-0 h-full w-[60%] sm:w-[35%] bg-smoke-500
                       ease-in-out duration-500 z-40 shadow-md
                       ${nav ? 'right-0' : '-right-full'}
                     `}>
                 
                 {/* SIDE BAR LIST */}
-                <div className="flex flex-col mt-[7rem] h-full m-8 text-3xl text-ice-500 gap-x-5">
+                <div className="flex flex-col mt-[7rem] h-full m-8 text-3xl text-sky-500 gap-x-5">
                   <ul className="flex flex-col gap-y-6 list-none items-end sm:items-center">
                       <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
-                          <Link to="/" onClick={scrollToTop}>
+                          <Link to="/" onClick={() => { scrollToTop();  handleNav();}}>
                               Home
                           </Link>
                       </li>
                       <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
-                          <Link to="/about" onClick={scrollToTop}>
+                          <Link to="/about" onClick={() => { scrollToTop();  handleNav();}}>
                               About
                           </Link>
                       </li>
                       <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
-                          <Link to="/contact" onClick={scrollToTop}>
+                          <Link to="/contact" onClick={() => { scrollToTop();  handleNav();}}>
                               Contact Us
                           </Link>
                       </li>
@@ -130,7 +130,7 @@ function Navbar() {
 
               <div className="fixed md:hidden bottom-9 right-7 z-50">
                 <div className="blink-border">
-                  <Link to="/donate" onClick={scrollToTop}>
+                  <Link to="/donate" onClick={() => { scrollToTop();  setNav(false);}}>
                     <Button className="bg-yellow-500 text-white text-3xl font-bold px-6 py-8 transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-yellow-400 cursor-pointer w-full">
                         DONATE
                     </Button>

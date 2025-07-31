@@ -1,18 +1,54 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
+import { Link } from "react-router-dom";
 import EmailForm from "@/components/ContactUs/EmailForm";
 import Contact from "@/assets/png/contact.png";
+import Wave from "@/assets/svg/wave.svg";
 
 const ContactUs = () => {
+  const backgroundRef = useRef(null);
+  
+      useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        const opacity = [1/4] - scrollPosition / window.innerHeight;
+  
+        if (backgroundRef.current) {
+          backgroundRef.current.style.opacity = opacity > 0 ? opacity : 0;
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
   return (
-    <section className="w-full bg-white py-20  md:px-10 mt-[2rem]">
-      <div className="max-w-4xl mx-auto text-deep-500 space-y-6 px-4">
+    <section className="relative z-10 w-full bg-smoke-500 py-20 mt-[2rem]">
+
+                <div class="fixed inset-0 w-full h-screen z-0">
+                  <img
+                    ref={backgroundRef}
+                    src={Wave}
+                    alt="Background Wave"
+                    className="h-full w-full object-cover transition-opacity duration-50 -translate-y-96 sm:-translate-y-80 opacity-25"
+                  />
+                </div>
+
+      <div className="relative z-10 max-w-5xl mx-auto text-deep-500 space-y-6 px-6 md:px-16 ">
                 {/* Optional Image Section */}
-                <div className="relative w-full ">
+                <div className="relative w-full rounded-lg overflow-clip">
                   <img
                     src={Contact}
                     alt="HRPEC pull up banner"
-                    className="w-full h-[5rem] sm:h-[10rem] rounded-lg shadow-md object-cover "
+                    className="w-full h-[7rem] sm:h-[10rem] shadow-md object-cover "
                   />
+
+                  {/* Breadcrumbs */}
+                    <div className="absolute z-20 top-1 breadcrumbs flex items-end justify-start text-sm text-white ml-5 font-semibold">
+                      <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><a>Contact Us</a></li>
+                      </ul>
+                    </div>                  
         
                   {/* Inimage Text */}
                   <div className="absolute inset-0 bg-black/40 flex items-end justify-start">
@@ -33,7 +69,7 @@ const ContactUs = () => {
           <p className="italic">Love, <strong>HRPEC</strong></p>
         </div>
 
-        <div className="bg-blue-50 rounded-3xl p-5 sm:p-10 text-deep-500 shadow-sm">
+        <div className="bg-sky-500/10 rounded-3xl p-5 sm:p-10 text-deep-500 shadow-sm">
             <EmailForm />            
         </div>
 

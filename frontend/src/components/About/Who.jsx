@@ -1,19 +1,55 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
+import { Link } from "react-router-dom";
 import WhoImage from "@/assets/who.png";
+import Wave from "@/assets/svg/wave.svg";
 
 const Who = () => {
+  const backgroundRef = useRef(null);
+
+    useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const opacity = [1/4] - scrollPosition / window.innerHeight;
+
+      if (backgroundRef.current) {
+        backgroundRef.current.style.opacity = opacity > 0 ? opacity : 0;
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  
   return (
-    <section className="w-full bg-white pt-20 px-6 md:px-16 mt-[2rem]">
-      <div className="max-w-6xl mx-auto flex flex-col gap-5 items-center">
+    <section className="relative z-10 w-full pt-20 px-6 md:px-16 mt-[2rem]">
+
+          <div className="fixed inset-0 w-full h-screen z-0">
+            <img
+              ref={backgroundRef}
+              src={Wave}
+              alt="Background Wave"
+              className="h-full w-full object-cover transition-opacity duration-50 -translate-y-80 sm:-translate-y-60 opacity-25"
+            />
+          </div>
+
+      <div className="relative z-10 max-w-5xl mx-auto flex flex-col gap-5 items-center">
 
         {/* Optional Image Section */}
-        <div className="relative w-full">
+        <div className="relative w-full rounded-lg overflow-clip">
           <img
             src={WhoImage}
             alt="HRPEC Team or Campaign"
-            className="w-full h-auto rounded-lg shadow-md object-cover "
+            className="w-full h-auto shadow-md object-cover "
             style={{ maxHeight: "420px" }}
           />
+
+          {/* Breadcrumbs */}
+            <div className="absolute z-20 top-1 breadcrumbs flex items-end justify-start text-sm text-white ml-5 font-semibold">
+              <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><a>About</a></li>
+              </ul>
+            </div>
 
           {/* Inimage Text */}
           <div className="absolute inset-0 bg-black/40 flex items-end justify-start">
