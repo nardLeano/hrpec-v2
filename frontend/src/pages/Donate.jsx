@@ -33,7 +33,7 @@ const Donate = () => {
                     ref={backgroundRef}
                     src={Wave}
                     alt="Background Wave"
-                    className="h-full w-full object-cover transition-opacity duration-50 -translate-y-96 sm:-translate-y-86 opacity-25"
+                    className="h-full w-full object-cover transition-opacity duration-50 -translate-y-96 sm:-translate-y-86 md:-translate-y-86 lg:-translate-y-105 opacity-25"
                   />
                 </div>
       
@@ -56,7 +56,7 @@ const Donate = () => {
         
                   {/* Inimage Text */}
                   <div className="absolute inset-0 bg-black/40 flex items-end justify-start">
-                    <div className="text-white text-end px-4 space-y-4">
+                    <div className="text-white text-start px-4 space-y-4">
                         <h2 className="text-4xl sm:text-6xl font-bold">Support our Work!</h2> 
                     </div> 
                   </div>
