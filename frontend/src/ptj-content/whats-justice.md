@@ -20,77 +20,89 @@ Justice is one of the most powerful ideas that shape our lives, yet it remains d
 
 <br />
 
-**PUNITIVE JUSTICE**  
-*“Dapat makulong ang may sala.”*
+Justice may equate to legal punishment, imprisonment, or what we call punitive action.
 
-For many, justice means **punishment**. When someone commits a wrong, justice is served when the law holds them accountable—often through imprisonment or legal sanction. This is called **punitive justice**, a system rooted in the idea that wrongdoing deserves penalty. It's the most common form of justice we see in courts and law enforcement.
+Para sa iba, ang kahulugan ng hustisya ay pagpapakulong sa mga may sala.
 
-<br />
- 
-**RETRIBUTIVE JUSTICE**  
-*“Gantihan para makabawi.”*
+Kung makikita nilang pinanagot ng batas ang gumawa ng mali.
 
-Retributive justice focuses on **revenge** or **rebalancing**: “An eye for an eye.” Ang layunin nito ay bumawi. To make the scales even. Kung ano ang kinuha sa’yo, dapat ibalik. If you caused harm, you should suffer the same.  
+**Punitive justice** is one of the most dominant legal models in the world today. It focuses on penalizing the offender, often through incarceration. For example, as of 2022, the Philippines had over [130,000 persons deprived of liberty](https://www.pna.gov.ph/articles/1192226), with jails operating at 387% congestion rate—raising questions about the effectiveness and humanity of punitive justice. Critics argue that overreliance on punishment doesn't address the root causes of crime and often neglects victims’ needs for healing.
 
-This kind of justice feels intuitive—lalo na sa mga sugat na sariwa pa. It gives a sense of control to the victim, especially in a world where so many harms go unanswered. 
-
-<br />
- 
-**RECONCILIATORY JUSTICE**  
-*“Pagpapatawad at pakikipag-ayos.”*
-
-Some forms of justice are **relational**. Reconciliatory justice seeks **forgiveness**, **mercy**, and **healing** between the wrongdoer and the harmed. Minsan hindi sapat ang parusa. Ang mahalaga, may pag-amin sa mali, may paghingi ng tawad, at may pagbubukas ng puso sa muling pag-uusap.
-
-We often see this in indigenous practices or in community-based approaches where relationships matter more than punishment. It does not erase pain—but it opens the door for transformation through dialogue. Ngunit hindi rin ito madaling proseso. Forgiveness cannot be forced. It takes time, trust, and accountability.
-
-<br />
- 
-**RESTORATIVE JUSTICE**  
-*“Bawiin ang dangal ng biktima.”*
-
-Restorative justice focuses on **repairing harm**. Hindi lang ito tungkol sa pagpapatawad—kundi sa muling pagbawi ng dignidad. In this approach, the goal is not just to punish the wrongdoer but to **restore** what was lost, whether materially, emotionally, or socially.
-
-It requires the offender to take responsibility and actively participate in making things right. Victims, in turn, are given space to share their truth, be heard, and be centered in the process. This method is now being explored in schools, courts, and transitional justice settings around the world.
-
-Restorative justice recognizes that not all harm can be undone—but dignity can still be reclaimed.
-
-<br />
- 
-**TRANSFORMATIVE JUSTICE**  
-*“Itama ang sistemang ugat ng mali.”*
-
-Beyond the personal level, **transformative justice** zooms out to ask: what kind of society allowed this harm to happen in the first place? Kung may karahasan, pang-aabuso, o kawalan ng hustisya, paano natin babaguhin ang mga sistemang pinanggalingan nito?
-
-Transformative justice aims for **systemic change**. It recognizes that crimes don’t happen in a vacuum—they are shaped by poverty, inequality, discrimination, and historical trauma. This approach is often used in grassroots movements and post-conflict societies aiming for collective healing, not just individual punishment.
-
-<br />
- 
-This kind of justice isn’t about retribution or apology—it’s about liberation. About building new structures that prevent future harm.
-<br />
- 
-
-Whether through **punishment, retribution, reconciliation, restoration**, or **transformation**, justice is our attempt to **right a wrong**. It is both personal and political, intimate and institutional. From our daily lives to our nation’s legal systems, justice is the ideal we reach for when harm has been done.
-
-Sa huli, ang hustisya ay hindi lang konsepto. Isa itong pagkilos. A call to act, to speak, to build, and to repair. Dahil ang lipunang kayang itama ang mali, ay lipunang tunay na makatao.
-<br />
- 
- Para sa’yo, ano ang hustisya?
-
-We’d love to hear your thoughts. Leave a comment or message us. Let's keep the conversation going.
-  <br />
- 
 ---
-<br />
- 
 
-  
-**References & Further Reading**
+Or justice could be retributive— sought through revenge or “an eye for an eye”.
+
+Maari rin namang pagganti o pagbawi sa nakagawa ng mali.
+
+Para kwits! To make even. Para patas lang. Kuhain ang katumbas ng kinuha sa iyo.
+
+**Retributive justice** is built on the principle of proportionality—“you get what you deserve.” In many justice systems, this philosophy underpins criminal sentencing. However, retributive frameworks have been criticized for fostering cycles of violence. A 2021 UNODC report notes that in post-conflict settings, revenge killings often increase when formal justice mechanisms fail, showing how unresolved harm can spiral without meaningful resolution. ([UNODC, 2021](https://www.unodc.org/unodc/en/justice-and-prison-reform/index.html))
+
+---
+
+It may also be seen as reconciliatory, involving forgiveness and mercy.
+
+Minsan naman maaaring patungkol ito sa pagpapatawad. Pag-alegro o pakikipag-ayos.
+
+**Reconciliatory justice** emphasizes emotional and social repair, often involving truth-telling, apologies, and forgiveness. It's central to processes like South Africa’s Truth and Reconciliation Commission, which investigated apartheid-era abuses. Over [21,000 victims](https://www.justice.gov.za/trc/) gave testimony, allowing collective healing without resorting solely to punishment. These approaches are especially valuable in deeply divided societies, though their success depends on sincerity, accountability, and reparative action.
+
+---
+
+It could be restorative, an effort to return impaired or lost dignity.
+
+Bukod naman sa pakikipag-ayos, ang pag-aayos. Ang muling pagbawi sa dangal ng biktima.
+
+**Restorative justice** is victim-centered and dialogical, often involving mediated encounters between offender and victim. Studies show restorative processes increase victim satisfaction rates to over **85%**, compared to just **20%** in conventional courts ([Restorative Justice Council, UK](https://restorativejustice.org.uk/)). In the Philippines, the Juvenile Justice and Welfare Act of 2006 mandates restorative practices for children in conflict with the law. These aim to rebuild dignity while reducing recidivism and reliance on incarceration.
+
+---
+
+It may also be transformative for the whole community or society to be changed for the better.
+
+Hustisyang layunin ay pagbabago. Pagtama sa sistema na pinagmumulan ng mali.
+
+Hindi lang para sa iilan, kundi para sa lipunan bilang kabuuan.
+
+**Transformative justice** goes beyond addressing individual wrongdoing—it asks how systems themselves create the conditions for harm. This framework is rooted in community work, especially within feminist, abolitionist, and anti-colonial movements. For example, many groups in the Global South, including indigenous Lumad communities in Mindanao, practice *communal justice* that centers land rights and cultural healing. Internationally, movements like [Mariame Kaba’s](https://mariamekaba.com/) advocate for transforming institutions—schools, prisons, police—to stop violence before it happens.
+
+---
+
+In whichever process and means we prefer it to be done, justice is to right a wrong.  
+From individual experiences to broader social issues, justice is our ideal and fair way of protecting our rights and punishing wrongdoings.
+
+Dahil ang lipunang itinatama ang mali, ay lipunang Makatao  
+We’d like to hear your thoughts!
+
+**Para sa’yo, ano ang hustisya?**
+
+---
+
+**References & Further Reading**  
 <br />
 
 [UN Guidance Note: Approach to Rule of Law Assistance (2008)](https://peacemaker.un.org/sites/default/files/document/files/2022/07/sgguidancenote-approachrol2008.pdf)  
-   • A UN framework on legal accountability and post-conflict justice systems.
+• A UN framework on legal accountability and post-conflict justice systems.  
 <br />
-  
+
 [What are Punitive, Restorative, and Transformative Justice? (Blind Injustice Blog, 2022)](https://blindinjusticeblog.com/2022/05/16/what-arepunitive-restorative-and-transformative-justice)  
-   • A primer on different kinds of justice from a social justice lens.
+• A primer on different kinds of justice from a social justice lens.  
+<br />
+
+[Restorative Justice Council (UK)](https://restorativejustice.org.uk/)  
+• Research and data on the impact of restorative practices.  
+<br />
+
+[South African Truth and Reconciliation Commission](https://www.justice.gov.za/trc/)  
+• Historical reference for reconciliatory justice after apartheid.  
+<br />
+
+[UNODC – Criminal Justice and Prison Reform](https://www.unodc.org/unodc/en/justice-and-prison-reform/index.html)  
+• UN data on criminal justice practices worldwide.  
+<br />
+
+[Philippine News Agency – Jail Congestion (2023)](https://www.pna.gov.ph/articles/1192226)  
+• Latest data on the state of punitive justice in the Philippines.  
+<br />
+
+[Mariame Kaba: Transformative Justice and Abolition](https://mariamekaba.com/)  
+• Essays and community-based models of justice transformation.  
 <br />
