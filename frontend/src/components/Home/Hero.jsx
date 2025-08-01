@@ -23,22 +23,6 @@ const slides = [
   },
   {
     id: 2,
-    title: "Harong Queens",
-    subtitle:
-      "Harong Queens is a bold and colorful initiative under TST that uses drag as a form of protest, education, and celebration of identity.",
-    image: Slide2,
-    link: "/programs/harong-queens",
-  },
-  {
-    id: 3,
-    title: "Karapatan ko Obligasyon ko",
-    subtitle:
-      "A workshop that brings theater, music, and movement into the heart of communities. Learn. Reflect. Act.",
-    image: Slide3,
-    link: "/programs/tita-hr",
-  },
-  {
-    id: 4,
     title: "Miyerkulet",
     subtitle:
       "A regular cultural event which HRPEC has mounted over two hundred times, is a safe space for the arts and human rights discourse.",
@@ -46,12 +30,28 @@ const slides = [
     link: "/programs/miyerkulet",
   },
   {
-    id: 5,
+    id: 3,
+    title: "Harong Queens",
+    subtitle:
+      "Harong Queens is a bold and colorful initiative under TST that uses drag as a form of protest, education, and celebration of identity.",
+    image: Slide2,
+    link: "/programs/harong-queens",
+  },
+  {
+    id: 4,
     title: "Makatao, Maka-Tayo Campaign",
     subtitle:
       "Eighteen civil society organizations convened to collectively draft a 12-point human rights legislative agenda, which will serve as a basis for candidates to uphold the rights of the Filipino people.",
     image: Slide5,
     link: "/programs/makatao-makatayo",
+  },
+  {
+    id: 5,
+    title: "Karapatan ko Obligasyon ko",
+    subtitle:
+      "A workshop that brings theater, music, and movement into the heart of communities. Learn. Reflect. Act.",
+    image: Slide3,
+    link: "/programs/tita-hr",
   },
 ];
 

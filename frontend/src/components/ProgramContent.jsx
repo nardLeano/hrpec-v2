@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import matter from "gray-matter";
 
 // Vite loads all markdown files as raw strings
 const files = import.meta.glob('/src/program-contents/*.md', {
@@ -27,25 +28,32 @@ const ProgramContent = ({ id, onTitleLoad = () => {} }) => {
     
   const [content, setContent] = useState("");
 
-    useEffect(() => {
+  useEffect(() => {
     const filePath = `/src/program-contents/${id}.md`;
     const load = files[filePath];
 
-        if (load) {
-        load().then((text) => {
-            const lines = text.split("\n");
-            const titleLine = lines.find((line) => line.startsWith("# "));
-            const title = titleLine ? titleLine.replace(/^# /, "").trim() : "";
-            onTitleLoad(title);
+    if (load) {
+      load().then((raw) => {
+        try {
+          const { content: body, data } = matter(raw); // parses frontmatter!
+          
+          // Send meta (id, slug, title)
+          onTitleLoad({
+            id: data.id,
+            slug: data.slug,
+            title: data.title,
+          });
 
-            // Remove the title line from markdown
-            const contentOnly = lines.filter((line) => !line.startsWith("# ")).join("\n");
-            setContent(contentOnly);
-        });
-        } else {
-        setContent("## 404\nPost not found.");
+          setContent(body);
+        } catch (error) {
+          console.error("Error parsing content file:", error);
+          setContent("## Error\nInvalid content format.");
         }
-    }, [id, onTitleLoad]);
+      });
+    } else {
+      setContent("## 404\nPost not found.");
+    }
+  }, [id, onTitleLoad]);
 
     const components = {
         img: ({ src, alt }) => {

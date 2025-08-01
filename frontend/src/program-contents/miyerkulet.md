@@ -1,4 +1,8 @@
-# MiyerKulet!
+---
+id: miyerkulet
+slug: "Human Rights Film Festival"
+title: "MiyerKULET!"
+---
 *Human Rights Film Festival*  
   
 MiyerKULET!, a regular cultural event which HRPEC has mounted over two hundred times, is a safe space for the arts and human rights discourse. Every Wednesday, this event invites filmmakers, theater practitioners, and musicians to promote human rights through their art. It allows participants to converse freely on social issues and discuss strategies to further their advocacy in their own spaces.  

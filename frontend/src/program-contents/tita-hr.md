@@ -1,4 +1,8 @@
-# Karapatan ko, Obligasyon ko
+---
+id: tita-hr
+slug: "A Theater and Community Workshop on Rights Education"
+title: "Karapatan ko, Obligasyon ko"
+---
 *A Theater and Community Workshop on Rights Education*  
 
 Karapatan ko, Obligasyon ko is a theater-based workshop program that travels into communities often left behind by traditional legal education. Its core philosophy is that knowing your rights should not require formal schooling or legal jargon—it should be a living, breathing part of everyday life.  

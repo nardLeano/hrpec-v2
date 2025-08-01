@@ -1,4 +1,8 @@
-# Harong Queens
+---
+id: harong-queens
+slug: "A Drag and Human Rights Education Project"
+title: "Harong Queens"
+---
 *A Drag and Human Rights Education Project*
 
 Harong Queens is a bold and colorful initiative under TST (Trans Student Tagbilaran) that uses **drag performance as protest**, education, and celebration.  

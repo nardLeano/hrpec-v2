@@ -1,4 +1,8 @@
-# Makatao, Maka-Tayo Campaign
+---
+id: makatao-makatayo
+slug: "Legislative Agenda for Human Rights"
+title: "Makatao, Maka-Tayo Campaign"
+---
 *Legislative Agenda for Human Rights*  
 
 Makatao, Maka-Tayo is more than a policy document—it is a collective vision of a just and democratic future. Crafted by 18 civil society organizations, this 12-point legislative agenda confronts urgent issues from political repression to labor exploitation, indigenous rights to digital freedoms.  

@@ -1,4 +1,8 @@
-# Project Transitional Justice
+---
+id: transitional-justice
+slug: "transitional-justice"
+title: "Project Transitional Justice"
+---
 *Interactive Human Rights Film Screenings and Youth Campaign Building for Transitional Justice*
 
 Project Transitional Justice brings together communities through the medium of film and youth-led initiatives. The project focuses on justice for human rights violations by using storytelling and advocacy to unpack state violence, impunity, and collective memory.  

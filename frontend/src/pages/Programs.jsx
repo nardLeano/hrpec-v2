@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 
 import ProgramContent from '@/components/ProgramContent';
+import MiyerkuletNow from "@/components/Home/MiyerkuletNow";
 
 // IMAGES FOR BANNERS
 import transitionalJusticeImg from '@/program-contents/transitional-justice.png';
@@ -22,19 +23,24 @@ const images = {
 const Programs = () => {
 
   const { id } = useParams();
-  const [title, setTitle] = useState("");
 
   const imageSrc = images[id];
 
-  const handleContentLoad = ({ title }) => {
-    setTitle(title);
-  };
+  const [meta, setMeta] = useState({
+  id: "",
+  slug: "",
+  title: "",
+});
+
+  const handleContentLoad = ({ id, slug, title }) => {
+  setMeta({ id, slug, title });
+};
 
   return (
-    <section className="w-full relative max-w-5xl lg:px-0 center mx-auto pt-[6rem] mb-10">
+    <section className="w-full relative max-w-5xl lg:px-0 center mx-auto pt-[6rem]">
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col gap-5 items-center">
             {/* Image based on id */}
-            <div className="relative w-full h-[250px] sm:h-[400px] overflow-clip">
+            <div className="relative w-full h-[300px] sm:h-[400px] overflow-clip">
                 <img
                 src={imageSrc}
                 alt={`Banner for ${id}`}
@@ -46,7 +52,7 @@ const Programs = () => {
             <div className="absolute inset-0 bg-black/40 flex flex-col items-start justify-end">
                 <div className="text-white text-start px-4 mb-2">
                     <h2 className="text-4xl sm:text-6xl font-bold text-white drop-shadow-lg">
-                        {title || "Title Loading..."}
+                        {meta.title || "Title Loading..."}
                     </h2>                    
                 </div>
                 {/* Breadcrumbs */}
@@ -55,19 +61,25 @@ const Programs = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="">Programs</Link></li>
-                        <li><Link to="">{title || "Title Loading..."}</Link></li>
+                        <li><Link to="">{meta.title || "Title Loading..."}</Link></li>
                     </ul>
                 </div>               
             </div>
         </div>
 
-        <div className="w-full text-deep-500 max-w-5xl pt-5 px-6 md:px-16 ">
+        <div className="w-full text-deep-500 max-w-5xl pt-5 px-6 md:px-16 mb-10">
             {/* content*/}
             <div className="text-md md:text-lg leading-relaxed space-y-2">
-                <h2 className="font-semibold text-xl">{title || "Title Loading..."}</h2>
-                <ProgramContent id={id} onTitleLoad={setTitle} />                
+                <h2 className="font-semibold text-xl">{meta.title || "Title Loading..."}</h2>
+                <ProgramContent id={id} onTitleLoad={handleContentLoad} />                
             </div>                
         </div>
+
+        { id === "miyerkulet" && (
+        <div className="mb-10"> 
+            <MiyerkuletNow />
+        </div>
+        )}
 
 
     </section>
