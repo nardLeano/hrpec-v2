@@ -9,6 +9,7 @@ import Intro from "@/components/Home/Intro";
 import DonateNow from "@/components/Home/DonateNow";
 import Faq from "@/components/Home/Faq";
 import MiyerkuletNow from "@/components/Home/MiyerkuletNow";
+import PtjEducGate from "@/components/PtjEducGate";
 
 function Home() {
   return (
@@ -24,6 +25,10 @@ function Home() {
 
         <section id="miyerkulet">
             <MiyerkuletNow />
+        </section>
+
+        <section id="ptj-gate">
+            <PtjEducGate />
         </section>
 
         <section id="faqs">
