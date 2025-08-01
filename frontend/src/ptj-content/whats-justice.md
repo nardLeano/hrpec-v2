@@ -107,7 +107,7 @@ We’d like to hear your thoughts!
 • A primer on different kinds of justice from a social justice lens.  
 <br />
 
-[The Little Book of Restorative Justice – Howard Zehr (2002)](https://restorativejustice.org/rj-library/the-little-book-of-restorative-justice/2479/)  
+[The Little Book of Restorative Justice – Howard Zehr (2002)](https://archive.org/details/littlebookofrest0000zehr)  
 • An accessible introduction to restorative practices, often used in communities and schools.  
 <br />
 
