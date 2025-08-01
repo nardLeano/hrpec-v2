@@ -18,9 +18,12 @@ import ContactUs from "./pages/ContactUs";
 
 import Programs from "./pages/Programs";
 
+import PtjEduc from "./pages/PtjEduc";
+import PtjRead from "./pages/PtjRead";
+
 
 function App() {
-
+  
   return (
     <BrowserRouter>
         <Navbar />
@@ -31,6 +34,9 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             
             <Route path="/programs/:id" element={<Programs />} />
+
+            <Route path="/programs/transitional-justice/ptj-educ" element={<PtjEduc />} />
+            <Route path="/programs/transitional-justice/ptj-educ/:id" element={<PtjRead />} />
 
           </Routes>
         <Footer />

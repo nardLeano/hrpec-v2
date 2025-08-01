@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 
 import ProgramContent from '@/components/ProgramContent';
 import MiyerkuletNow from "@/components/Home/MiyerkuletNow";
+import PtjEducGate from "@/components/PtjEducGate";
 
 // IMAGES FOR BANNERS
 import transitionalJusticeImg from '@/program-contents/transitional-justice.png';
@@ -78,6 +79,12 @@ const Programs = () => {
         { id === "miyerkulet" && (
         <div className="mb-10"> 
             <MiyerkuletNow />
+        </div>
+        )}
+
+        { id === "transitional-justice" && (
+        <div className="mb-10"> 
+            <PtjEducGate />
         </div>
         )}
 
