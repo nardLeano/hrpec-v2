@@ -65,7 +65,8 @@ const PtjEduc = () => {
           <div className="top-1 breadcrumbs flex flex-wrap items-start text-start text-sm text-white ml-5 font-semibold drop-shadow-lg mb-2">
             <ul className="flex flex-wrap gap-1 text-start">
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/programs/transitional-justice">About PTJ</Link></li>
+              <li><Link to="/programs">Programs</Link></li>
+              <li><Link to="/programs/transitional-justice">Project Transitional Justice</Link></li>
               <li><Link to="/programs/transitional-justice/ptj-educ">PTJ Educational</Link></li>
             </ul>
           </div>
