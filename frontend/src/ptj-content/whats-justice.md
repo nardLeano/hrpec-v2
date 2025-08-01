@@ -25,8 +25,6 @@ Justice is one of the most powerful ideas that shape our lives, yet it remains d
 
 For many, justice means **punishment**. When someone commits a wrong, justice is served when the law holds them accountable—often through imprisonment or legal sanction. This is called **punitive justice**, a system rooted in the idea that wrongdoing deserves penalty. It's the most common form of justice we see in courts and law enforcement.
 
-But punitive systems are not neutral. They reflect the values and biases of the society that created them. Kaya may tanong din: sino ang madalas napaparusahan? Sino ang hindi? In a society where the law can be weaponized, punishment doesn't always equal fairness. Still, for those who have been harmed, seeing someone held responsible can be a powerful form of relief and closure.
-
 <br />
  
 **RETRIBUTIVE JUSTICE**  
@@ -34,7 +32,7 @@ But punitive systems are not neutral. They reflect the values and biases of the 
 
 Retributive justice focuses on **revenge** or **rebalancing**: “An eye for an eye.” Ang layunin nito ay bumawi. To make the scales even. Kung ano ang kinuha sa’yo, dapat ibalik. If you caused harm, you should suffer the same.  
 
-This kind of justice feels intuitive—lalo na sa mga sugat na sariwa pa. It gives a sense of control to the victim, especially in a world where so many harms go unanswered. But it also raises the question: does retribution truly heal? Or does it risk creating more cycles of violence?
+This kind of justice feels intuitive—lalo na sa mga sugat na sariwa pa. It gives a sense of control to the victim, especially in a world where so many harms go unanswered. 
 
 <br />
  
@@ -67,7 +65,7 @@ Transformative justice aims for **systemic change**. It recognizes that crimes d
 
 <br />
  
-This kind of justice isn’t about retribution or apology—it’s about **liberation**. About building new structures that prevent future harm.
+This kind of justice isn’t about retribution or apology—it’s about liberation. About building new structures that prevent future harm.
 <br />
  
 
