@@ -82,6 +82,11 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
+                        <Link to="/programs" onClick={scrollToTop}>
+                            Our Works
+                        </Link>
+                    </li>
+                    <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
                         <Link to="/contact" onClick={scrollToTop}>
                             Contact Us
                         </Link>
@@ -119,6 +124,11 @@ function Navbar() {
                               About
                           </Link>
                       </li>
+                      <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
+                        <Link to="/programs" onClick={scrollToTop}>
+                            Our Works
+                        </Link>
+                    </li>
                       <li className="hover:scale-[1.1] transition-all duration-200 ease-in-out">
                           <Link to="/contact" onClick={() => { scrollToTop();  handleNav();}}>
                               Contact Us
