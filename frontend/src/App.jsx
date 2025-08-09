@@ -16,6 +16,7 @@ import About from "@/pages/About";
 import Donate from "./pages/Donate";
 import ContactUs from "./pages/ContactUs";
 
+import OurWork from "./pages/OurWork";
 import Programs from "./pages/Programs";
 
 import PtjEduc from "./pages/PtjEduc";
@@ -33,6 +34,7 @@ function App() {
             <Route path="/donate" element={<Donate />} />
             <Route path="/contact" element={<ContactUs />} />
             
+            <Route path="/programs" element={<OurWork />} />
             <Route path="/programs/:id" element={<Programs />} />
 
             <Route path="/programs/transitional-justice/ptj-educ" element={<PtjEduc />} />

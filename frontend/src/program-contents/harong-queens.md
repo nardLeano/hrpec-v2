@@ -2,6 +2,8 @@
 id: harong-queens
 slug: "A Drag and Human Rights Education Project"
 title: "Harong Queens"
+subtitle:
+      "Harong Queens is a bold and colorful initiative under TST that uses drag as a form of protest, education, and celebration of identity."
 ---
 *A Drag and Human Rights Education Project*
 

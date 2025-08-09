@@ -2,6 +2,8 @@
 id: makatao-makatayo
 slug: "Legislative Agenda for Human Rights"
 title: "Makatao, Maka-Tayo Campaign"
+subtitle:
+      "Eighteen civil society organizations convened to collectively draft a 12-point human rights legislative agenda, which will serve as a basis for candidates to uphold the rights of the Filipino people."   
 ---
 *Legislative Agenda for Human Rights*  
 

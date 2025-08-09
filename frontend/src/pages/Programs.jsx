@@ -61,7 +61,7 @@ const Programs = () => {
                     <ul className="flex flex-wrap gap-1 text-start">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
-                        <li><Link to="/">Programs</Link></li>
+                        <li><Link to="/programs">Programs</Link></li>
                         <li><Link to="">{meta.title || "Title Loading..."}</Link></li>
                     </ul>
                 </div>               

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const MiyerkuletNow = () => {
   return (
-    <section className="relative w-full h-[200px] md:h-full flex justify-center items-center overflow-hidden bg-slate-100 ">
+    <section className="relative w-full h-[200px] md:h-full flex justify-center items-center overflow-hidden bg-slate-100 my-5">
       {/* Background Image */}
       <img
         src={FreedomX}

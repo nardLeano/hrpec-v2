@@ -2,6 +2,8 @@
 id: miyerkulet
 slug: "Human Rights Film Festival"
 title: "MiyerKULET!"
+subtitle:
+      "A regular cultural event which HRPEC has mounted over two hundred times, is a safe space for the arts and human rights discourse."
 ---
 *Human Rights Film Festival*  
   

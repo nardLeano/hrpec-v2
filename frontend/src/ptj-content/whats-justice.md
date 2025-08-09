@@ -1,6 +1,6 @@
 ---
 id: whats-justice
-slug: "What is Justice"
+slug: "What is Justice?"
 title: "What is Justice?"
 date: "August 1, 2025"
 tags:

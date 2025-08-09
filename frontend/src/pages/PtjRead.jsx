@@ -34,7 +34,7 @@ const PtjRead = () => {
       <div className="relative z-10 max-w-5xl mx-auto flex flex-col gap-5 items-center">
         <div className="relative w-full h-[200px] sm:h-[200px] overflow-clip">
           <img
-            src={imageSrc}
+            src={whatsJusticeImg}
             alt={`Banner for ${id}`}
             className="object-cover object-bottom w-full h-full"
           />
@@ -49,7 +49,8 @@ const PtjRead = () => {
           <div className="top-1 breadcrumbs flex flex-wrap items-start text-start text-sm text-white ml-5 font-semibold drop-shadow-lg mb-2">
             <ul className="flex flex-wrap gap-1 text-start">
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/programs/transitional-justice">About PTJ</Link></li>
+              <li><Link to="/programs">Programs</Link></li>
+              <li><Link to="/programs/transitional-justice">Project Transitional Justice</Link></li>
               <li><Link to="/programs/transitional-justice/ptj-educ">PTJ Educational</Link></li>
               <li><Link to="">{meta.title || "Title Loading..."}</Link></li>
             </ul>
