@@ -7,7 +7,7 @@ subtitle:
 ---
 *A Drag and Human Rights Education Project*
 
-Harong Queens is a bold and colorful initiative under TST (Trans Student Tagbilaran) that uses **drag performance as protest**, education, and celebration.  
+Harong Queens is a bold and colorful initiative under TST (Teatro Tao sa Tao) that uses **drag performance as protest**, education, and celebration.  
 
 In a rural setting where queerness is often hidden or dismissed, Harong Queens creates space—both literal and symbolic—for LGBTQ+ expression to flourish. It’s a runway, a classroom, and a protest line all at once. Here, wigs, glitter, and heels become tools for education and transformation.  
   
